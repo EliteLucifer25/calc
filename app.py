@@ -34,8 +34,7 @@ interface = gr.Interface(
     title="Advanced Python Calculator",
     description=("A highly robust, safe mathematical engine supporting complex expressions, "
                  "operator precedence, constants (`pi`, `e`), and functions like `sin`, `log`, `sqrt`, `max`, `abs`. "
-                 "Use `_` or `ans` to reference the last evaluated answer!"),
-    allow_flagging="never"
+                 "Use `_` or `ans` to reference the last evaluated answer!")
 )
 
 if __name__ == "__main__":
